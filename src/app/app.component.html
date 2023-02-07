@@ -54,6 +54,7 @@
   .toolbar #twitter-logo {
     height: 40px;
     margin: 0 8px;
+    /* color: #00FF00; */
   }
 
   .toolbar #youtube-logo {
@@ -135,8 +136,8 @@
   }
 
   .card.highlight-card {
-    background-color: #1976d2;
-    color: white;
+    background-color: #f32424;
+    color: rgb(0, 0, 0);
     font-weight: 600;
     border: none;
     width: auto;
@@ -311,10 +312,17 @@
   />
   <span>Welcome</span>
     <div class="spacer"></div>
+    <a aria-label="Glonbant page" target="_blank" rel="noopener" href="https://www.globant.com/" title="Globant">
+      <img
+        width="127"
+        alt="Globant logo"
+        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxNDggMjUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE0OCAyNTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNCRkQ3MzI7fQo8L3N0eWxlPgo8Zz4KCTxwYXRoIGQ9Ik0xMC45LDIyLjVDNC44LDIyLjUsMSwxNy4zLDEsMTEuN0MxLDUuOCw0LjQsMSwxMC45LDFjNC44LDAsOC41LDIuOCw4LjgsNi45aC00LjJjLTAuMi0xLjktMi4yLTMuNC00LjUtMy40CgkJYy0zLjQsMC01LjYsMi42LTUuNiw3LjRjMCwzLjMsMS43LDcsNS42LDdjMy42LDAsNC45LTEuOCw0LjktNC42aC00LjVWMTFoOC40djMuNEMxOS43LDE5LjEsMTcuNiwyMi41LDEwLjksMjIuNXoiLz4KCTxwYXRoIGQ9Ik0yMi4xLDIxLjhWMS41SDI2djIwLjNIMjIuMXoiLz4KCTxwYXRoIGQ9Ik0yNy45LDEzLjJjMC4zLTMuMywzLjMtNi4zLDYuNi02LjZjNS4yLTAuNSw4LjYsMi43LDguNiw3LjhjMCw0LjctMi45LDcuOC03LjYsNy44QzMwLjMsMjIuMiwyNy40LDE4LjQsMjcuOSwxMy4yegoJCSBNMzkuMSwxNC40YzAtMy0xLjItNC41LTMuNi00LjVjLTIuNCwwLTMuNiwxLjUtMy42LDQuNWMwLDMsMS4yLDQuNSwzLjYsNC41QzM3LjksMTguOSwzOS4xLDE3LjQsMzkuMSwxNC40TDM5LjEsMTQuNHoiLz4KCTxwYXRoIGQ9Ik00NC45LDIxLjhWMS41aDMuOXY3LjRjMS4xLTEuNiwyLjYtMi4zLDQuNC0yLjNjMy44LDAsNi4xLDMuMiw2LjEsNy43YzAsNS0yLjcsOC02LjQsOGMtMS44LDAtMy4yLTAuNy00LjEtMi4ybDAsMS44SDQ0LjkKCQl6IE01NS4zLDE0LjVjMC0zLTEuMS00LjYtMy40LTQuNmMtMi4yLDAtMy4zLDEuNi0zLjMsNC44YzAsMi41LDEuNSw0LjMsMy4zLDQuM0M1My45LDE5LDU1LjMsMTcuMSw1NS4zLDE0LjV6Ii8+Cgk8cGF0aCBkPSJNNzAuOSwyMS44Yy0wLjEtMC40LTAuMi0wLjktMC4yLTEuM2MtMC45LDEtMi41LDEuNy00LjUsMS43Yy0zLjQsMC01LTEuNy01LTQuMWMwLTQuMywyLjktNC44LDYuOC01LjMKCQljMi0wLjMsMi41LTAuNywyLjUtMS43YzAtMS0xLTEuNS0yLjUtMS41Yy0xLjgsMC0yLjUsMC45LTIuNywyLjJoLTMuN2MwLjEtMy4xLDEuOC01LjIsNi41LTUuMmM0LjcsMCw2LjMsMi4xLDYuMyw1Ljl2OS40SDcwLjl6CgkJIE03MC43LDE0LjVjLTAuNCwwLjQtMS4xLDAuNi0yLjUsMC45Yy0yLjIsMC40LTMsMS4xLTMsMi4zYzAsMS4xLDAuNywxLjcsMS45LDEuN2MyLDAsMy41LTEuNSwzLjYtMy4yTDcwLjcsMTQuNXoiLz4KCTxwYXRoIGQ9Ik04Ni44LDIxLjh2LTljMC0yLjMtMC43LTIuOS0yLjUtMi45Yy0yLjEsMC0zLDEuMS0zLDMuNHY4LjVoLTMuOVY2LjlIODF2Mi4yYzAuOS0xLjcsMi40LTIuNiw0LjgtMi42YzIuOCwwLDQuOSwxLjcsNC45LDUKCQl2MTAuM0w4Ni44LDIxLjh6Ii8+Cgk8cGF0aCBkPSJNMTAyLjEsMTYuMmMtMC4xLDEuNi0wLjgsMi42LTIuMywyLjZjLTEuNiwwLTIuMy0xLjEtMi4zLTNWOS43aDYuMVY2LjZoLTYuMVYyLjloLTMuOXYxMy4zYzAsMy4yLDEuNyw2LDYuMSw2CgkJYzQuMiwwLDYtMi44LDYtNnYwTDEwMi4xLDE2LjJ6Ii8+Cgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTEwLjUsMC40Yy0wLjQtMC4zLTEtMC4xLTEuMywwLjNjLTAuMSwwLjItMC4yLDAuNS0wLjEsMC43bDEuOCwyLjZjMy40LDUuMSwzLjQsMTEuOCwwLDE2LjlsLTEuOCwyLjYKCQljLTAuMSwwLjUsMC4xLDEsMC42LDEuMWMwLjIsMC4xLDAuNSwwLDAuNy0wLjFsMTQuNy0xMS4yYzAuNS0wLjQsMC42LTEuMSwwLjItMS42Yy0wLjEtMC4xLTAuMS0wLjItMC4yLTAuMkwxMTAuNSwwLjR6Ii8+CjwvZz4KPC9zdmc+Cg=="
+      />
+    </a>
     <a aria-label="Angular on twitter" target="_blank" rel="noopener" href="https://twitter.com/angular" title="Twitter">
       <svg id="twitter-logo" height="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
         <rect width="400" height="400" fill="none"/>
-        <path d="M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23" fill="#fff"/>
+        <path d="M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23" fill="#00FF00"/>
       </svg>
     </a>
     <a aria-label="Angular on YouTube" target="_blank" rel="noopener" href="https://youtube.com/angular" title="YouTube">
@@ -387,7 +395,7 @@
   </div>
 
   <!-- Next Steps -->
-  <h2>Next Steps</h2>
+  <h2>Tutorials</h2>
   <p>What do you want to do next with your app?</p>
 
   <input type="hidden" #selection>
