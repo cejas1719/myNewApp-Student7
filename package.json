@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "deploy": "ng deploy --base-href=/cejas1719.github.io/OurNewApp-Group1/",
+    "build": "ng build --output-path docs --base-href=/myNewApp-Student7/",
+    "deploy": "ng deploy --base-href=/myNewApp-Student7/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
