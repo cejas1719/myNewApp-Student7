@@ -43,7 +43,7 @@ jobs:
     #   run: ng add angular-cli-ghpages
 
     - name: Deploy Angular App 
-      run: ng deploy
+      run: npm run build --prod
 
     # - name: Deploy to Gitpages
     #   uses: JamesIves/github-pages-deploy-action@releases/v3
