@@ -36,9 +36,15 @@ jobs:
     - name: Install Angular 
       run: npm install -g @angular/cli
 
-    - name: Build and run Angular app 
-      run: ng serve
+    # - name: Build and run Angular app 
+    #   run: ng serve
           
+    - name: Install gh-pages cli 
+      run: ng add angular-cli-ghpages
+
+    - name: Deploy Angular App 
+      run: ng deploy
+
     # - name: Deploy to Gitpages
     #   uses: JamesIves/github-pages-deploy-action@releases/v3
     #   with:
