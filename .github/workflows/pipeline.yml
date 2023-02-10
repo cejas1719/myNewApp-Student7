@@ -39,8 +39,8 @@ jobs:
     # - name: Install gh-pages cli 
     #   run: ng add angular-cli-ghpages
 
-    - name: Build Angular App 
-      run: npm run build --prod
+    # - name: Build Angular App 
+    #   run: npm run build --prod
 
     - name: Build and run Angular app 
       run: ng deploy
